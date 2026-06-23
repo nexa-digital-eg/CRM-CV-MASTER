@@ -19,7 +19,7 @@ export default async function WhatsappPage({
 
   const { data: messages } = await supabase
     .from('whatsapp_messages')
-    .select('id,phone,body,direction,is_ai,created_at,contact_id,contacts(name)')
+    .select('id,phone,body,direction,is_ai,created_at,contact_id,contacts(name,ai_enabled)')
     .or(`user_id.eq.${user.id},user_id.eq.${N8N_AUTOMATION_USER_ID}`)
     .order('created_at', { ascending: true })
 
