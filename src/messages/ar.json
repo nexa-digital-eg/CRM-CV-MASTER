@@ -11,12 +11,18 @@
   },
   "dashboard": {
     "title": "لوحة التحكم",
-    "totalContacts": "إجمالي جهات الاتصال",
+    "totalContacts": "جهات الاتصال",
     "openDeals": "الصفقات المفتوحة",
-    "pendingTasks": "المهام المعلقة",
-    "totalRevenue": "إجمالي الإيرادات",
+    "pendingTasks": "مهام",
+    "totalRevenue": "الإيرادات",
     "recentMessages": "آخر رسائل واتساب",
-    "noMessages": "لا توجد رسائل حتى الآن"
+    "noMessages": "لا توجد رسائل حتى الآن",
+    "whatsappMessages": "رسائل واتساب",
+    "inboundMessages": "واردة",
+    "aiEnabled": "AI نشط",
+    "services": "وصول سريع",
+    "activeSystem": "النظام نشط",
+    "viewAll": "عرض الكل"
   },
   "contacts": {
     "title": "جهات الاتصال",

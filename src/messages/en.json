@@ -11,12 +11,18 @@
   },
   "dashboard": {
     "title": "Dashboard",
-    "totalContacts": "Total Contacts",
+    "totalContacts": "Contacts",
     "openDeals": "Open Deals",
-    "pendingTasks": "Pending Tasks",
-    "totalRevenue": "Total Revenue",
+    "pendingTasks": "tasks",
+    "totalRevenue": "Revenue",
     "recentMessages": "Recent WhatsApp Messages",
-    "noMessages": "No messages yet"
+    "noMessages": "No messages yet",
+    "whatsappMessages": "WhatsApp Messages",
+    "inboundMessages": "inbound",
+    "aiEnabled": "AI active",
+    "services": "Quick Access",
+    "activeSystem": "System Active",
+    "viewAll": "View all"
   },
   "contacts": {
     "title": "Contacts",
