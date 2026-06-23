@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "contacts": "جهات الاتصال",
+    "deals": "الصفقات",
+    "tasks": "المهام",
+    "invoices": "الفواتير",
+    "whatsapp": "واتساب",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "totalContacts": "إجمالي جهات الاتصال",
+    "openDeals": "الصفقات المفتوحة",
+    "pendingTasks": "المهام المعلقة",
+    "totalRevenue": "إجمالي الإيرادات",
+    "recentMessages": "آخر رسائل واتساب",
+    "noMessages": "لا توجد رسائل حتى الآن"
+  },
+  "contacts": {
+    "title": "جهات الاتصال",
+    "addContact": "إضافة جهة اتصال",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "company": "الشركة",
+    "status": "الحالة",
+    "createdAt": "تاريخ الإضافة",
+    "noContacts": "لا توجد جهات اتصال",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "status_lead": "محتمل",
+    "status_prospect": "متابعة",
+    "status_client": "عميل",
+    "status_inactive": "غير نشط"
+  },
+  "deals": {
+    "title": "الصفقات",
+    "addDeal": "إضافة صفقة",
+    "dealTitle": "عنوان الصفقة",
+    "value": "القيمة",
+    "status": "المرحلة",
+    "contact": "جهة الاتصال",
+    "noDeals": "لا توجد صفقات",
+    "new": "جديد",
+    "contacted": "تم التواصل",
+    "proposal": "عرض سعر",
+    "won": "مكتملة",
+    "lost": "خسارة"
+  },
+  "tasks": {
+    "title": "المهام",
+    "addTask": "إضافة مهمة",
+    "taskTitle": "عنوان المهمة",
+    "priority": "الأولوية",
+    "dueDate": "تاريخ الاستحقاق",
+    "status": "الحالة",
+    "noTasks": "لا توجد مهام",
+    "todo": "للتنفيذ",
+    "in_progress": "قيد التنفيذ",
+    "done": "مكتملة",
+    "high": "عالية",
+    "medium": "متوسطة",
+    "low": "منخفضة"
+  },
+  "invoices": {
+    "title": "الفواتير",
+    "number": "رقم الفاتورة",
+    "contact": "العميل",
+    "total": "الإجمالي",
+    "status": "الحالة",
+    "dueDate": "تاريخ الاستحقاق",
+    "noInvoices": "لا توجد فواتير",
+    "draft": "مسودة",
+    "sent": "مرسلة",
+    "paid": "مدفوعة",
+    "overdue": "متأخرة"
+  },
+  "whatsapp": {
+    "title": "محادثات واتساب",
+    "selectContact": "اختر جهة اتصال لعرض المحادثة",
+    "aiMessage": "رسالة ذكاء اصطناعي",
+    "inbound": "وارد",
+    "outbound": "صادر",
+    "noConversations": "لا توجد محادثات"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "appName": "اسم التطبيق",
+    "whatsappNumber": "رقم واتساب",
+    "n8nWebhook": "رابط n8n Webhook",
+    "language": "اللغة",
+    "currency": "العملة",
+    "save": "حفظ الإعدادات",
+    "saved": "تم الحفظ"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "loginButton": "دخول",
+    "loginError": "بيانات الدخول غير صحيحة"
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ",
+    "search": "بحث...",
+    "actions": "إجراءات",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "view": "عرض",
+    "sar": "ر.س",
+    "egp": "ج.م"
+  }
+}

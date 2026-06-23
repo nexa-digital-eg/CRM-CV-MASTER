@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --font-cairo: 'Cairo', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-cairo), system-ui, sans-serif;
+}

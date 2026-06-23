@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "contacts": "Contacts",
+    "deals": "Deals",
+    "tasks": "Tasks",
+    "invoices": "Invoices",
+    "whatsapp": "WhatsApp",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalContacts": "Total Contacts",
+    "openDeals": "Open Deals",
+    "pendingTasks": "Pending Tasks",
+    "totalRevenue": "Total Revenue",
+    "recentMessages": "Recent WhatsApp Messages",
+    "noMessages": "No messages yet"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "addContact": "Add Contact",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "status": "Status",
+    "createdAt": "Created At",
+    "noContacts": "No contacts yet",
+    "save": "Save",
+    "cancel": "Cancel",
+    "status_lead": "Lead",
+    "status_prospect": "Prospect",
+    "status_client": "Client",
+    "status_inactive": "Inactive"
+  },
+  "deals": {
+    "title": "Deals",
+    "addDeal": "Add Deal",
+    "dealTitle": "Deal Title",
+    "value": "Value",
+    "status": "Stage",
+    "contact": "Contact",
+    "noDeals": "No deals yet",
+    "new": "New",
+    "contacted": "Contacted",
+    "proposal": "Proposal",
+    "won": "Won",
+    "lost": "Lost"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "addTask": "Add Task",
+    "taskTitle": "Task Title",
+    "priority": "Priority",
+    "dueDate": "Due Date",
+    "status": "Status",
+    "noTasks": "No tasks yet",
+    "todo": "To Do",
+    "in_progress": "In Progress",
+    "done": "Done",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "invoices": {
+    "title": "Invoices",
+    "number": "Invoice #",
+    "contact": "Client",
+    "total": "Total",
+    "status": "Status",
+    "dueDate": "Due Date",
+    "noInvoices": "No invoices yet",
+    "draft": "Draft",
+    "sent": "Sent",
+    "paid": "Paid",
+    "overdue": "Overdue"
+  },
+  "whatsapp": {
+    "title": "WhatsApp Conversations",
+    "selectContact": "Select a contact to view conversation",
+    "aiMessage": "AI Message",
+    "inbound": "Inbound",
+    "outbound": "Outbound",
+    "noConversations": "No conversations yet"
+  },
+  "settings": {
+    "title": "Settings",
+    "appName": "App Name",
+    "whatsappNumber": "WhatsApp Number",
+    "n8nWebhook": "n8n Webhook URL",
+    "language": "Language",
+    "currency": "Currency",
+    "save": "Save Settings",
+    "saved": "Saved"
+  },
+  "auth": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "loginError": "Invalid credentials"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "search": "Search...",
+    "actions": "Actions",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "sar": "SAR",
+    "egp": "EGP"
+  }
+}
