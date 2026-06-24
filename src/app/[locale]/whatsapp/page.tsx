@@ -1,5 +1,4 @@
 import { redirect } from 'next/navigation'
-import { getTranslations } from 'next-intl/server'
 import { createClient } from '@/lib/supabase/server'
 import AppShell from '@/components/layout/AppShell'
 import WhatsappClient from './WhatsappClient'
@@ -11,7 +10,6 @@ export default async function WhatsappPage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
-  const t = await getTranslations('whatsapp')
   const supabase = await createClient()
 
   const { data: { user } } = await supabase.auth.getUser()
@@ -25,14 +23,11 @@ export default async function WhatsappPage({
 
   return (
     <AppShell>
-      <WhatsappClient messages={messages ?? []} t={{
-        title: t('title'),
-        selectContact: t('selectContact'),
-        aiMessage: t('aiMessage'),
-        inbound: t('inbound'),
-        outbound: t('outbound'),
-        noConversations: t('noConversations')
-      }} />
+      <WhatsappClient
+        messages={messages ?? []}
+        userId={user.id}
+        locale={locale}
+      />
     </AppShell>
   )
 }
