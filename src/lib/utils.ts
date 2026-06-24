@@ -37,3 +37,37 @@ export const statusColors: Record<string, string> = {
   paid: 'bg-green-100 text-green-700',
   overdue: 'bg-red-100 text-red-700'
 }
+
+export const darkStatusColors: Record<string, string> = {
+  new: 'bg-blue-500/15 text-blue-300 border border-blue-500/25',
+  contacted: 'bg-indigo-500/15 text-indigo-300 border border-indigo-500/25',
+  service_identified: 'bg-violet-500/15 text-violet-300 border border-violet-500/25',
+  price_sent: 'bg-purple-500/15 text-purple-300 border border-purple-500/25',
+  waiting_response: 'bg-amber-500/15 text-amber-300 border border-amber-500/25',
+  waiting_payment: 'bg-orange-500/15 text-orange-300 border border-orange-500/25',
+  proof_sent: 'bg-yellow-500/15 text-yellow-300 border border-yellow-500/25',
+  payment_confirmed: 'bg-teal-500/15 text-teal-300 border border-teal-500/25',
+  in_progress: 'bg-cyan-500/15 text-cyan-300 border border-cyan-500/25',
+  delivered: 'bg-green-500/15 text-green-300 border border-green-500/25',
+  not_completed: 'bg-red-500/15 text-red-300 border border-red-500/25',
+  follow_up_later: 'bg-slate-500/15 text-slate-300 border border-slate-500/25',
+  pending: 'bg-amber-500/15 text-amber-300 border border-amber-500/25',
+  review: 'bg-purple-500/15 text-purple-300 border border-purple-500/25',
+  completed: 'bg-green-500/15 text-green-300 border border-green-500/25',
+  cancelled: 'bg-red-500/15 text-red-300 border border-red-500/25',
+  refunded: 'bg-slate-500/15 text-slate-300 border border-slate-500/25',
+  proof_submitted: 'bg-yellow-500/15 text-yellow-300 border border-yellow-500/25',
+  confirmed: 'bg-green-500/15 text-green-300 border border-green-500/25',
+  rejected: 'bg-red-500/15 text-red-300 border border-red-500/25',
+}
+
+export const sourceColors: Record<string, string> = {
+  whatsapp: 'bg-green-500/15 text-green-400',
+  messenger: 'bg-blue-500/15 text-blue-400',
+  facebook_ad: 'bg-blue-600/15 text-blue-400',
+  instagram: 'bg-pink-500/15 text-pink-400',
+  instagram_ad: 'bg-purple-500/15 text-purple-400',
+  website: 'bg-slate-500/15 text-slate-400',
+  referral: 'bg-amber-500/15 text-amber-400',
+  other: 'bg-gray-500/15 text-gray-400',
+}
