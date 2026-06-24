@@ -5,7 +5,7 @@ import { createClient } from '@/lib/supabase/client'
 import { useRouter } from 'next/navigation'
 import { darkStatusColors } from '@/lib/utils'
 
-const PAYMENT_STATUS_LABELS = {
+const PAYMENT_STATUS_LABELS: Record<string, string> = {
   pending: 'قيد الانتظار',
   proof_submitted: 'إثبات مرسل',
   confirmed: 'مؤكد',
